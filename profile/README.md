@@ -1,123 +1,97 @@
-# 🚀 Grupo Netway – Setor de Desenvolvimento
+🚀 Grupo Netway – Time de Desenvolvimento
+💡 Aqui é onde a infraestrutura do Grupo Netway encontra código bem escrito, automação e dados em escala.
 
-Bem-vindo ao **hub de desenvolvimento do Grupo Netway**.  
-Aqui nossas ideias se transformam em soluções digitais que **conectam pessoas, negócios e tecnologia**.  
-Nosso propósito é criar sistemas **escaláveis, seguros e inovadores**, alinhados às necessidades do mercado e da comunidade.
+<p align="center"> <!-- Substitua pelo seu gif / vídeo curto de demo --> <img src="https://media.giphy.com/media/Rkis28kMJd1aE/giphy.gif" alt="Tech animation" width="450"> </p>
+✨ Propósito e Cultura
+Missão: Conectar pessoas e organizações com soluções digitais que superam expectativas e eliminam barreiras.
 
----
+Visão: Ser referência em engenharia de software, dados e automação no mercado de telecom e tecnologia.
 
-## ✨ Missão, Visão e Valores
+Valores:
 
-- **Missão:** Superar espectativas, conectando pessoas e organizações. Rompendo fronteira.  
-- **Visão:** Ser referência em **excelência técnica, inovação digital** e **entrega de valor** no setor de tecnologia.  
-- **Valores:** Colaboração, transparência, responsabilidade, aprendizado contínuo e paixão pelo que fazemos.  
+Colaboração radical e transparência por padrão
 
----
+Responsabilidade com dados e segurança
 
-## 🛠️ Tecnologias e Ferramentas
+Aprendizado contínuo + feedback honesto
 
-Nossos projetos abrangem múltiplas stacks e metodologias modernas:
+Autonomia com senso de dono
 
-- **Front-end:** React, Next.js, TypeScript, TailwindCSS  
-- **Back-end:** Node.js, NestJS, Python 
-- **Banco de Dados:** PostgreSQL, MySQL, MongoDB, Redis  
-- **Infra & DevOps:** Docker, Kubernetes, GitLab CI/CD  
-- **Controle de Versão:** Git (GitFlow)  
-- **Documentação:** Markdown, Swagger/OpenAPI, Postman 
+🛠️ Stack Oficial do Time
+<p align="center"> <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"> <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> <img alt="NestJS" src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"> <img alt="React" src="https://img.shields.io/badge/React-38BDF8?style=for-the-badge&logo=react&logoColor=white"> <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"> <img alt="React Native" src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=white"> </p> <p align="center"> <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"> <img alt="MariaDB" src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-10AA50?style=for-the-badge&logo=mongodb&logoColor=white"> <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"> </p> <p align="center"> <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"> <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"> <img alt="GitLab" src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white"> <img alt="GitHub" src="https://img.shields.io/badge/GitHub-0f172a?style=for-the-badge&logo=github&logoColor=white"> <img alt="n8n" src="https://img.shields.io/badge/n8n-1a1a1a?style=for-the-badge&logo=n8n&logoColor=white"> </p> <p align="center"> <img alt="Metabase" src="https://img.shields.io/badge/Metabase-1C3554?style=for-the-badge&logo=metabase&logoColor=white"> <img alt="Power BI" src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"> <img alt="Looker Studio" src="https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=looker&logoColor=white"> <img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"> </p>
+📂 Ecossistema de Repositórios
+Repositório	Descrição
+app-web	Portal web administrativo e operação
+api-core	API principal do ecossistema Grupo Netway
+infra	Infraestrutura como código (Terraform / IaC)
+mobile	App mobile em React Native
+docs	Documentação central, padrões e playbooks
+Regra de ouro: novo projeto = README claro + docs mínimas desde o dia 1.
 
----
+🔄 Workflow de Desenvolvimento
+text
+flowchart LR
+  A[Issue / Demanda] --> B[Branch feature/…]
+  B --> C[Dev & Testes locais]
+  C --> D[Merge Request]
+  D --> E[Code Review + CI/CD]
+  E --> F[Merge em develop]
+  F --> G[Release em main + Deploy]
+Crie branch a partir de develop:
 
-## 📂 Estrutura de Repositórios
+bash
+git checkout develop
+git pull origin develop
+git checkout -b feature/minha-feature
+Use Conventional Commits:
 
-| Repositório  | Descrição                                  |
-|--------------|--------------------------------------------|
-| `app-web`    | Aplicação web administrativa               |
-| `api-core`   | API principal do ecossistema Netway         |
-| `infra`      | Infraestrutura como código (IaC) Terraform |
-| `mobile`     | Aplicativo mobile em React Native           |
-| `docs`       | Documentação centralizada de projetos       |
+text
+feat(api): adiciona endpoint de contratos
+fix(ui): corrige layout do dashboard financeiro
+chore(ci): ajusta pipeline de testes e lint
+Abra MR/PR para develop com contexto, prints e passos de teste.
 
-> 🔔 Atualize esta tabela sempre que novos projetos forem adicionados.  
+CI roda lint, testes e build.
 
----
+Aprovado → merge em develop.
 
-## 🔄 Fluxo de Trabalho (Workflow)
+Releases gerenciadas a partir de main com versionamento semântico.
 
-1. Crie uma branch a partir de `develop`:  
-   ```bash
-   git checkout -b feature/nome-da-feature
-   ```
-2. Faça commits claros seguindo o padrão **Conventional Commits**:  
-   ```
-   feat: adiciona módulo de autenticação
-   fix: corrige erro de validação no login
-   ```
-3. Submeta um **Pull Request** para revisão.  
-4. Testes e pipelines de CI são executados automaticamente.  
-5. Após aprovação, o merge é feito em `develop`.  
-6. Releases são versionadas a partir da branch `main`.  
+👩‍💻 Onboarding de Devs
+bash
+# 1. Clonar
+git clone git@github.com:Grupo-Netway/<repo>.git
+cd <repo>
 
----
+# 2. Instalar dependências
+npm install
 
-## 🌈 Diretrizes de Contribuição
+# 3. Configurar variáveis de ambiente
+cp .env.example .env
 
-- Faça um **fork** do repositório.  
-- Crie uma branch de feature (`feature/nome-da-feature`).  
-- Atualize a documentação quando necessário.  
-- Garanta que **todos os testes estejam passando**.  
-- Abra um **Pull Request** descrevendo suas mudanças.  
+# 4. Subir ambiente local
+npm run dev
 
-> Todas as contribuições passam por **Code Review** para mantermos qualidade e consistência.  
+# 5. Rodar testes
+npm test
+Se algo quebrar nesse fluxo, abra um issue ou fale no canal do time.
 
----
+🧠 Recursos e Conhecimento
+Wiki interna: http://kb.netway.inf.br/login
 
-## 👩‍💻 Onboarding de Novos Devs
+Padrão de commits: https://www.conventionalcommits.org/
 
-1. Clone o repositório:  
-   ```bash
-   git clone git@github.com:Grupo-Netway/<repo>.git
-   ```
-2. Instale as dependências:  
-   ```bash
-   npm install
-   ```
-3. Configure seu `.env` baseado em `.env.example`.  
-4. Execute o ambiente local:  
-   ```bash
-   npm run dev
-   ```
-5. Rode os testes para validar o ambiente:  
-   ```bash
-   npm test
-   ```
+Guia rápido de Markdown: https://www.markdownguide.org/basic-syntax/
 
----
+👥 Time & Contato
+Canais internos
 
-## 📚 Recursos Úteis
+Microsoft Teams: #Departamento de Tecnologia
 
-- [Documentação oficial do GitHub](https://docs.github.com/)  
-- [Guia de estilo de commits](https://www.conventionalcommits.org/)  
-- [Markdown básico](https://www.markdownguide.org/basic-syntax/)  
-- [Slack/Teams do time de Dev]
-- [Wiki interna do Grupo Netway](http://kb.netway.inf.br/login)
+E-mail: departamento.to@netway.inf.br
 
----
-
-## 🍿 Curiosidades do Time
-
-- ☕ Café é o combustível oficial do setor.  
-- 🍕 Pizza é a comida padrão em deploys noturnos.  
-- 💡 Discussão eterna: **VSCode vs IntelliJ**.  
-- 🐧 Amamos Linux, mas sempre há quem defenda Windows ou MacOS.  
-
----
-
-## 📞 Suporte & Contato
-
-- **Canal interno:** `#Departamento de Tecnologia` no Teams  
-- **E-mail:** departamento.to@netway.inf.br  
-
-**Responsáveis pelo setor:**  
-- Líder de Desenvolvimento – [Alexandre Nogueira](https://github.com/Alxdelira/api-estudos)
+- Backend – [Alexandre Nogueira](https://github.com/Alxdelira)
 - FullStack – [Mateus de Moraes](https://github.com/MateussMoraes)
-- FullStack – [Theodoro Satyro](https://github.com/TheodoroFRS)
+- FullStack – [Aminah Makhoul](https://github.com/AminahMakhoul10)
+
+​
