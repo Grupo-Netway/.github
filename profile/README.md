@@ -4,7 +4,8 @@
 
 <p align="center">
   <!-- Substitua por um gif/vídeo de demo interno se quiser -->
-  <img src="https://media.giphy.com/media/Rkis28kMJd1aE/giphy.gif" alt="Tech animation" width="450">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2R0ajVhdDVhMHA1Z2Foams0cW9vb2gyeDh6aWg5cG5lNXowOG9ociZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/du3J3cXyzhj75IOgvA/giphy.gif" alt="Tech animation" width="450">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmJhbHI5N25hd3p6Ymt0N2cwbHBhdjZ2enZzaGgycTdsMGM3OG96aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/66M6ZwJkTLYikvhrqZ/giphy.gif" alt="gif Tech" width="450">
 </p>
 
 ---
